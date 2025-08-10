@@ -74,6 +74,9 @@ const translations = {
     cta_secondary: "Agendar reunión",
     final_cta1: "Agendar reunión",
     final_cta_report: "Ver muestra de informe",
+    // how
+    how_title: "Cómo Funciona Ariga",
+    how_1_title: "Escaneo Externo", how_1_desc: "Realizamos un escaneo base de tus activos expuestos a internet para mapear riesgos rápidamente.",
     how_2_title: "Explicaciones Claras", how_2_desc: "Convertimos hallazgos complejos en recomendaciones claras y accionables.",
   how_3_title: "Remediación Guiada", how_3_desc: "Nuestra solución de IA proporciona pasos claros de remediación.",
     how_4_title: "Protección Continua", how_4_desc: "Mantente al día con reescaneos programados, alertas y nuevas recomendaciones.",

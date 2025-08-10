@@ -4,12 +4,12 @@
 const translations = {
   en: {
     // nav
-    nav_how: "How it works", nav_benefits: "Benefits", nav_faq: "FAQ", nav_demo: "Book a Demo",
+    nav_how: "How it works", nav_benefits: "Benefits", nav_faq: "FAQ", nav_demo: "Schedule a Meeting",
     // hero
   hero_title: "AI‑Powered Security for SMBs in Latin America",
   hero_sub: "We scan your internet‑facing systems, explain risks in plain language, and guide you step‑by‑step to fix them with our AI agent.",
     hero_trust: "Built by a CISSP‑led team. Works with your existing stack.",
-    cta_primary: "Get Started", cta_secondary: "Book a Demo",
+    cta_primary: "Schedule a Meeting", cta_secondary: "Schedule a Meeting",
     value_title: "What you get",
     value_1: "Initial external security scanning",
     value_2: "Plain‑language findings",
@@ -56,12 +56,12 @@ const translations = {
   es: {
     // nav
     nav_how: "Cómo funciona", nav_benefits: "Beneficios", nav_faq: "Preguntas",
-    nav_demo: "Agenda una Demo",
+    nav_demo: "Agendar reunión",
     // hero
   hero_title: "Seguridad con IA para PYMEs en Latinoamérica",
   hero_sub: "Escaneamos tus sistemas expuestos a internet, explicamos los riesgos en un lenguaje claro y te guiamos paso a paso para corregirlos con nuestro agente de IA.",
     hero_trust: "Creado por un equipo liderado por CISSP. Funciona con tu stack actual.",
-    cta_primary: "Comenzar", cta_secondary: "Agenda una Demo",
+    cta_primary: "Agendar reunión", cta_secondary: "Agendar reunión",
     value_title: "Qué obtienes",
     value_1: "Escaneo externo inicial de seguridad",
     value_2: "Hallazgos en lenguaje claro",
@@ -70,9 +70,9 @@ const translations = {
     soon_badge: "Próximamente",
     soon_text: "Escaneo Interno y en la Nube, más remediación guiada por agente.",
     proof_text: "Explorando alianzas con aceleradoras — solicita nuestro product brief.",
-    // how
-    how_title: "Cómo Funciona Ariga",
-    how_1_title: "Escaneo Externo", how_1_desc: "Realizamos un escaneo base de tus activos expuestos para mapear riesgos rápidamente.",
+    cta_primary: "Schedule a First Call",
+    cta_secondary: "Schedule a First Call",
+    final_cta1: "Schedule a First Call",
     how_2_title: "Explicaciones Claras", how_2_desc: "Convertimos hallazgos complejos en recomendaciones claras y accionables.",
   how_3_title: "Remediación Guiada", how_3_desc: "Nuestra solución de IA proporciona pasos claros de remediación.",
     how_4_title: "Protección Continua", how_4_desc: "Mantente al día con reescaneos programados, alertas y nuevas recomendaciones.",
@@ -98,7 +98,7 @@ const translations = {
   q2_t: "¿Cómo funcionará el agente?", q2_a: "Nuestro agente de IA leerá tus vulnerabilidades y te guiará paso a paso para remediarlas de forma segura, haciendo el proceso claro y accionable para tu equipo.",
     q3_t: "¿Es seguro para producción?", q3_a: "Sí. Usamos verificaciones no invasivas por defecto. Solo ejecutamos pruebas activas con aprobación escrita.",
     // final cta
-    final_title: "Empieza a proteger tu negocio hoy.", final_sub: "Obtén valor en minutos con tu primer escaneo.", final_cta1: "Agenda una Demo", final_cta2: "Contáctanos",
+    final_title: "Empieza a proteger tu negocio hoy.", final_sub: "Obtén valor en minutos con tu primer escaneo.", final_cta1: "Agendar reunión", final_cta2: "Agendar reunión",
     // footer
     foot_tagline: "Ariga — seguridad con IA para PYMEs.", foot_contact: "Contacto", foot_privacy: "Privacidad", foot_terms: "Términos",
     // meta

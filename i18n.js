@@ -6,8 +6,8 @@ const translations = {
     // nav
     nav_how: "How it works", nav_benefits: "Benefits", nav_faq: "FAQ", nav_demo: "Book a Demo",
     // hero
-    hero_title: "AI‑Powered Security for SMBs in Latin America",
-    q2_a: "Our AI agent will read your vulnerabilities and guide you step by step to safely remediate them, making the process clear and actionable for your team.",
+  hero_title: "AI‑Powered Security for SMBs in Latin America",
+  hero_sub: "We scan your internet‑facing systems, explain risks in plain language, and guide you step‑by‑step to fix them with our AI agent.",
     hero_trust: "Built by a CISSP‑led team. Works with your existing stack.",
     cta_primary: "Get Started", cta_secondary: "Book a Demo",
     value_title: "What you get",
@@ -22,7 +22,7 @@ const translations = {
     how_title: "How Ariga Works",
     how_1_title: "External Scanning", how_1_desc: "We run a baseline scan of your internet‑facing assets to map risks fast.",
     how_2_title: "Plain‑Language Explanations", how_2_desc: "Complex findings are translated into clear, actionable insights.",
-    how_3_title: "Guided Remediation", how_3_desc: "Our AI agent gives step‑by‑step fixes tailored to your stack and team.",
+  how_3_title: "Guided Remediation", how_3_desc: "Our AI solution provides clear remediation steps.",
     how_4_title: "Ongoing Protection", how_4_desc: "Stay ahead with scheduled rescans, alerts, and fresh recommendations.",
     // tour
     tour_title: "See the Product",
@@ -58,8 +58,8 @@ const translations = {
     nav_how: "Cómo funciona", nav_benefits: "Beneficios", nav_faq: "Preguntas",
     nav_demo: "Agenda una Demo",
     // hero
-    q2_a: "Nuestro agente de IA leerá tus vulnerabilidades y te guiará paso a paso para remediarlas de forma segura, haciendo el proceso claro y accionable para tu equipo.",
-    hero_sub: "Escaneamos tus sistemas expuestos a internet, explicamos los riesgos en un lenguaje claro y te guiamos paso a paso para corregirlos con nuestro agente de IA.",
+  hero_title: "Seguridad con IA para PYMEs en Latinoamérica",
+  hero_sub: "Escaneamos tus sistemas expuestos a internet, explicamos los riesgos en un lenguaje claro y te guiamos paso a paso para corregirlos con nuestro agente de IA.",
     hero_trust: "Creado por un equipo liderado por CISSP. Funciona con tu stack actual.",
     cta_primary: "Comenzar", cta_secondary: "Agenda una Demo",
     value_title: "Qué obtienes",
@@ -74,7 +74,7 @@ const translations = {
     how_title: "Cómo Funciona Ariga",
     how_1_title: "Escaneo Externo", how_1_desc: "Realizamos un escaneo base de tus activos expuestos para mapear riesgos rápidamente.",
     how_2_title: "Explicaciones Claras", how_2_desc: "Convertimos hallazgos complejos en recomendaciones claras y accionables.",
-    how_3_title: "Remediación Guiada", how_3_desc: "Nuestro agente de IA ofrece pasos concretos adaptados a tu equipo y entorno.",
+  how_3_title: "Remediación Guiada", how_3_desc: "Nuestra solución de IA proporciona pasos claros de remediación.",
     how_4_title: "Protección Continua", how_4_desc: "Mantente al día con reescaneos programados, alertas y nuevas recomendaciones.",
     // tour
     tour_title: "Conoce el Producto",

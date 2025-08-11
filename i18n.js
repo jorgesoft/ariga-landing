@@ -17,7 +17,7 @@ const translations = {
     value_4: "Ongoing re‑scanning",
     soon_badge: "Coming soon",
     soon_text: "Internal and Cloud Scanning, plus agent‑guided remediation.",
-    proof_text: "Exploring accelerator partnerships — request our product brief.",
+    proof_text: "Built by security expert ",
     // how
     how_title: "How Ariga Works",
     how_1_title: "External Scanning", how_1_desc: "We run a baseline scan of your internet‑facing assets to map risks fast.",
@@ -59,7 +59,7 @@ const translations = {
     nav_demo: "Agendar reunión",
     // hero
   hero_title: "Seguridad con IA para PYMEs en Latinoamérica",
-  hero_sub: "Escaneamos tus sistemas expuestos a internet, explicamos los riesgos en un lenguaje claro y te guiamos paso a paso para corregirlos con nuestro agente de IA.",
+  hero_sub: "Escaneamos tus sistemas expuestos a internet, explicamos los riesgos en un lenguaje claro y te guiamos paso a paso para corregirlos.",
     hero_trust: "Creado por un equipo liderado por CISSP. Funciona con tu stack actual.",
     cta_primary: "Agendar reunión", cta_secondary: "Agendar reunión",
     value_title: "Qué obtienes",
@@ -69,7 +69,7 @@ const translations = {
     value_4: "Re‑escaneos continuos",
     soon_badge: "Próximamente",
     soon_text: "Escaneo Interno y en la Nube, más remediación guiada por agente.",
-    proof_text: "Explorando alianzas con aceleradoras — solicita nuestro product brief.",
+    proof_text: "Creado por el experto en seguridad ",
     cta_primary: "Agendar reunión",
     cta_secondary: "Agendar reunión",
     final_cta1: "Agendar reunión",

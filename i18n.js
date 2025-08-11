@@ -46,7 +46,7 @@ const translations = {
   q2_t: "How will the agent work?", q2_a: "Our AI agent will read your vulnerabilities and guide you step by step to safely remediate them, making the process clear and actionable for your team.",
     q3_t: "Is this safe for production?", q3_a: "Yes. We use non‑invasive checks by default. We only run active tests with written approval.",
     // final cta
-  final_title: "Start protecting your business today.", final_sub: "It takes minutes to get value from your first scan.", final_cta1: "Book a Demo", final_cta2: "Contact Us", final_cta_report: "View Sample Report",
+  final_title: "Start protecting your business today.", final_sub: "It takes minutes to get value from your first scan.", final_cta1: "Book a Demo", final_cta2: "Contact Us", final_cta_report: "View Demo",
     // footer
     foot_tagline: "Ariga — AI security for SMBs.", foot_contact: "Contact", foot_privacy: "Privacy", foot_terms: "Terms",
     // meta
@@ -73,7 +73,7 @@ const translations = {
     cta_primary: "Agendar reunión",
     cta_secondary: "Agendar reunión",
     final_cta1: "Agendar reunión",
-    final_cta_report: "Ver muestra de informe",
+    final_cta_report: "Ver demostración",
     // how
     how_title: "Cómo Funciona Ariga",
     how_1_title: "Escaneo Externo", how_1_desc: "Realizamos un escaneo base de tus activos expuestos a internet para mapear riesgos rápidamente.",
@@ -102,7 +102,7 @@ const translations = {
   q2_t: "¿Cómo funcionará el agente?", q2_a: "Nuestro agente de IA leerá tus vulnerabilidades y te guiará paso a paso para remediarlas de forma segura, haciendo el proceso claro y accionable para tu equipo.",
     q3_t: "¿Es seguro para producción?", q3_a: "Sí. Usamos verificaciones no invasivas por defecto. Solo ejecutamos pruebas activas con aprobación escrita.",
     // final cta
-  final_title: "Empieza a proteger tu negocio hoy.", final_sub: "Obtén valor en minutos con tu primer escaneo.", final_cta1: "Agendar reunión", final_cta2: "Agendar reunión", final_cta_report: "Ver muestra de informe",
+  final_title: "Empieza a proteger tu negocio hoy.", final_sub: "Obtén valor en minutos con tu primer escaneo.", final_cta1: "Agendar reunión", final_cta2: "Agendar reunión", final_cta_report: "Ver demostración",
     // footer
     foot_tagline: "Ariga — seguridad con IA para PYMEs.", foot_contact: "Contacto", foot_privacy: "Privacidad", foot_terms: "Términos",
     // meta

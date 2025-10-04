@@ -12,7 +12,7 @@ export default function SecurityAwareness() {
                 <Link to="/">Inicio</Link>
               </li>
               <li className="breadcrumb-item active" aria-current="page">
-                Concienciación en Seguridad
+                Entrenamiento y Concienciación en Seguridad
               </li>
             </ol>
           </nav>
@@ -24,7 +24,7 @@ export default function SecurityAwareness() {
               <h1 className="display-4 fw-bold mb-0">Concienciación en Seguridad</h1>
             </div>
             <p className="lead text-muted">
-              Transforma a tus empleados en la primera línea de defensa con formación personalizada mediante IA
+              Transforma a tus empleados en la primera línea de defensa con formación personalizada
             </p>
           </div>
 
@@ -34,7 +34,7 @@ export default function SecurityAwareness() {
               <div className="card-body p-4">
                 <h3 className="fw-bold mb-3">¿Qué es?</h3>
                 <p>
-                  El factor humano sigue siendo el eslabón más vulnerable en ciberseguridad. Nuestro programa de Concienciación en Seguridad utiliza inteligencia artificial para crear experiencias de aprendizaje personalizadas, relevantes y efectivas que transforman el comportamiento de tus empleados y reducen drásticamente el riesgo de incidentes de seguridad.
+                  Nuestro programa de Concienciación en Seguridad brinda experiencias de aprendizaje personalizadas, relevantes y efectivas que transforman el comportamiento de tus empleados y reducen drásticamente el riesgo de incidentes de seguridad.
                 </p>
               </div>
             </div>
@@ -42,8 +42,59 @@ export default function SecurityAwareness() {
 
           {/* How We Do It */}
           <section className="mb-5">
-            <h3 className="fw-bold mb-4">Cómo lo Hacemos con IA</h3>
+            <h3 className="fw-bold mb-4">Cómo lo Hacemos</h3>
             <div className="row g-4">
+              <div className="col-md-6">
+                <div className="card h-100 border-0 shadow-sm">
+                  <div className="card-body p-4">
+                    <div className="d-flex align-items-start">
+                      <div className="me-3">
+                        <i className="bi bi-play-circle text-primary fs-2"></i>
+                      </div>
+                      <div>
+                        <h5 className="fw-bold mb-2">Capacitación en Video</h5>
+                        <p className="mb-0">
+                          Contenido formativo en video de alta calidad, accesible bajo demanda para que tus equipos aprendan a su propio ritmo sobre amenazas de ciberseguridad y mejores prácticas.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="card h-100 border-0 shadow-sm">
+                  <div className="card-body p-4">
+                    <div className="d-flex align-items-start">
+                      <div className="me-3">
+                        <i className="bi bi-camera-video text-primary fs-2"></i>
+                      </div>
+                      <div>
+                        <h5 className="fw-bold mb-2">Webinars en Vivo</h5>
+                        <p className="mb-0">
+                          Sesiones interactivas en vivo donde tus empleados pueden participar, hacer preguntas y aprender sobre las últimas tendencias y amenazas en ciberseguridad.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="card h-100 border-0 shadow-sm">
+                  <div className="card-body p-4">
+                    <div className="d-flex align-items-start">
+                      <div className="me-3">
+                        <i className="bi bi-easel text-primary fs-2"></i>
+                      </div>
+                      <div>
+                        <h5 className="fw-bold mb-2">Presentaciones en Vivo</h5>
+                        <p className="mb-0">
+                          Presentaciones presenciales personalizadas en tu empresa, adaptadas a las necesidades específicas de tu organización y con ejemplos relevantes para tu sector.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div className="col-md-6">
                 <div className="card h-100 border-0 shadow-sm">
                   <div className="card-body p-4">
@@ -52,9 +103,9 @@ export default function SecurityAwareness() {
                         <i className="bi bi-person-badge text-primary fs-2"></i>
                       </div>
                       <div>
-                        <h5 className="fw-bold mb-2">Contenido Personalizado</h5>
+                        <h5 className="fw-bold mb-2">Formación Personalizada por Rol y Sector</h5>
                         <p className="mb-0">
-                          La IA analiza el rol, comportamiento y nivel de conocimiento de cada empleado para ofrecer formación específica y relevante para su puesto de trabajo.
+                          Formación personalizada según roles específicos (ejecutivos, desarrolladores, finanzas) y adaptada a las amenazas particulares de tu industria.
                         </p>
                       </div>
                     </div>
@@ -64,82 +115,34 @@ export default function SecurityAwareness() {
               <div className="col-md-6">
                 <div className="card h-100 border-0 shadow-sm">
                   <div className="card-body p-4">
+                    <div className="d-flex align-items-start">
+                      <div className="me-3">
+                        <i className="bi bi-award text-primary fs-2"></i>
+                      </div>
+                      <div>
+                        <h5 className="fw-bold mb-2">Formación Liderada por Expertos</h5>
+                        <p className="mb-0">
+                          Entrenamiento impartido por un experto con maestría en ciberseguridad de una universidad top 30 a nivel mundial, asegurando profundidad técnica y experiencia real en cada sesión.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6">
+                <div className="card h-100 border-0 shadow-sm position-relative">
+                  <div className="card-body p-4">
+                    <div className="position-absolute top-0 end-0 mt-3 me-3">
+                      <span className="badge bg-info">Próximamente</span>
+                    </div>
                     <div className="d-flex align-items-start">
                       <div className="me-3">
                         <i className="bi bi-envelope-exclamation text-primary fs-2"></i>
                       </div>
                       <div>
-                        <h5 className="fw-bold mb-2">Simulaciones de Phishing Inteligentes</h5>
+                        <h5 className="fw-bold mb-2">Pruebas de Phishing</h5>
                         <p className="mb-0">
-                          Generamos campañas de phishing simulado adaptadas a las amenazas reales que enfrenta tu sector, con dificultad ajustada según el nivel de cada usuario.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="card h-100 border-0 shadow-sm">
-                  <div className="card-body p-4">
-                    <div className="d-flex align-items-start">
-                      <div className="me-3">
-                        <i className="bi bi-graph-up-arrow text-primary fs-2"></i>
-                      </div>
-                      <div>
-                        <h5 className="fw-bold mb-2">Análisis Predictivo de Riesgos</h5>
-                        <p className="mb-0">
-                          Identificamos qué empleados o departamentos presentan mayor riesgo basándonos en patrones de comportamiento, y priorizamos la formación en consecuencia.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="card h-100 border-0 shadow-sm">
-                  <div className="card-body p-4">
-                    <div className="d-flex align-items-start">
-                      <div className="me-3">
-                        <i className="bi bi-controller text-primary fs-2"></i>
-                      </div>
-                      <div>
-                        <h5 className="fw-bold mb-2">Gamificación Adaptativa</h5>
-                        <p className="mb-0">
-                          Utilizamos técnicas de gamificación que se adaptan al progreso de cada usuario, manteniendo el engagement y reforzando conceptos clave de seguridad.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="card h-100 border-0 shadow-sm">
-                  <div className="card-body p-4">
-                    <div className="d-flex align-items-start">
-                      <div className="me-3">
-                        <i className="bi bi-chat-dots text-primary fs-2"></i>
-                      </div>
-                      <div>
-                        <h5 className="fw-bold mb-2">Asistente Virtual de Seguridad</h5>
-                        <p className="mb-0">
-                          Implementamos un chatbot de IA disponible 24/7 que responde dudas de seguridad de los empleados en tiempo real, reforzando el aprendizaje.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="card h-100 border-0 shadow-sm">
-                  <div className="card-body p-4">
-                    <div className="d-flex align-items-start">
-                      <div className="me-3">
-                        <i className="bi bi-bar-chart text-primary fs-2"></i>
-                      </div>
-                      <div>
-                        <h5 className="fw-bold mb-2">Métricas e Insights Accionables</h5>
-                        <p className="mb-0">
-                          Dashboards inteligentes que muestran el progreso, identifican tendencias y recomiendan acciones específicas para mejorar la postura de seguridad.
+                          Simulaciones de ataques de phishing para evaluar y mejorar la capacidad de tus empleados para detectar amenazas reales.
                         </p>
                       </div>
                     </div>

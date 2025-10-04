@@ -15,7 +15,7 @@ export default function ServicesSection() {
       link: '/servicios/ia-segura'
     },
     {
-      title: 'Concienciación en Seguridad',
+      title: 'Entrenamiento y Concienciación en Seguridad',
       icon: 'bi-mortarboard',
       description: 'Programas de formación y concienciación en ciberseguridad potenciados con IA.',
       link: '/servicios/concienciacion-seguridad'

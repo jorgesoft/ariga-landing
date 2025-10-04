@@ -24,7 +24,7 @@ export default function ExternalSecurityEvaluation() {
               <h1 className="display-4 fw-bold mb-0">Evaluación de Seguridad Externa</h1>
             </div>
             <p className="lead text-muted">
-              Descubre y elimina vulnerabilidades antes que los atacantes con análisis potenciados por IA
+              Descubre cómo los hackers ven tu empresa desde el exterior y anticipa sus movimientos con análisis avanzados de IA.
             </p>
           </div>
 
@@ -34,7 +34,7 @@ export default function ExternalSecurityEvaluation() {
               <div className="card-body p-4">
                 <h3 className="fw-bold mb-3">¿Qué es?</h3>
                 <p>
-                  Nuestro servicio de Evaluación de Seguridad Externa utiliza inteligencia artificial para realizar un análisis exhaustivo y continuo de tu exposición en Internet. Identificamos vulnerabilidades, configuraciones incorrectas y puntos débiles en tu perímetro digital antes de que sean explotados por atacantes.
+                  Nuestro servicio de Evaluación de Seguridad Externa utiliza inteligencia artificial para realizar un análisis exhaustivo de tu exposición en Internet. Identificamos vulnerabilidades, configuraciones incorrectas y puntos débiles en tu perímetro digital antes de que sean explotados por atacantes.
                 </p>
               </div>
             </div>
@@ -54,7 +54,7 @@ export default function ExternalSecurityEvaluation() {
                       <div>
                         <h5 className="fw-bold mb-2">Reconocimiento Automatizado</h5>
                         <p className="mb-0">
-                          Nuestros sistemas de IA escanean continuamente tu infraestructura externa, identificando todos los activos expuestos: servidores, aplicaciones web, APIs, certificados y más.
+                          Nuestros sistemas de IA escanean tu infraestructura externa, identificando todos los activos expuestos: servidores, aplicaciones web, APIs, certificados y más.
                         </p>
                       </div>
                     </div>
@@ -71,7 +71,7 @@ export default function ExternalSecurityEvaluation() {
                       <div>
                         <h5 className="fw-bold mb-2">Análisis Inteligente de Vulnerabilidades</h5>
                         <p className="mb-0">
-                          Utilizamos modelos de machine learning entrenados con millones de patrones de ataque para detectar vulnerabilidades conocidas y emergentes, priorizándolas según su criticidad real para tu negocio.
+                          Utilizamos modelos de machine learning avanzadas para detectar vulnerabilidades conocidas y emergentes, priorizándolas según su criticidad real para tu negocio.
                         </p>
                       </div>
                     </div>
@@ -103,9 +103,9 @@ export default function ExternalSecurityEvaluation() {
                         <i className="bi bi-bell text-primary fs-2"></i>
                       </div>
                       <div>
-                        <h5 className="fw-bold mb-2">Alertas Predictivas</h5>
+                        <h5 className="fw-bold mb-2">Detección de Emails Filtrados</h5>
                         <p className="mb-0">
-                          Nuestro sistema aprende de patrones de ataque globales y te alerta proactivamente sobre amenazas emergentes que podrían afectar a tu infraestructura específica.
+                          Nuestro sistema busca fuentes públicas y privadas para identificar si correos electrónicos de tu organización han sido filtrados o expuestos, permitiéndote actuar rápidamente ante posibles riesgos de phishing o suplantación.
                         </p>
                       </div>
                     </div>

@@ -24,7 +24,7 @@ export default function ApplicationSecurity() {
               <h1 className="display-4 fw-bold mb-0">Seguridad de Aplicaciones</h1>
             </div>
             <p className="lead text-muted">
-              Protege tus aplicaciones en cada fase del ciclo de desarrollo con análisis inteligente
+              Protege tus aplicaciones en cada fase del ciclo de desarrollo con servicios profesionales y automatizados.
             </p>
           </div>
 
@@ -34,7 +34,7 @@ export default function ApplicationSecurity() {
               <div className="card-body p-4">
                 <h3 className="fw-bold mb-3">¿Qué es?</h3>
                 <p>
-                  Las vulnerabilidades en aplicaciones son la causa principal de brechas de seguridad. Nuestro servicio de Seguridad de Aplicaciones integra inteligencia artificial en todo el ciclo de vida del desarrollo de software (SDLC) para identificar y remediar vulnerabilidades antes de que lleguen a producción, protegiendo tus aplicaciones web, móviles y APIs.
+                  Nuestros servicios de Seguridad de Aplicaciones integra seguridad en todo el ciclo de vida del desarrollo de software (SDLC) para identificar y remediar vulnerabilidades antes de que lleguen a producción, protegiendo tus aplicaciones web, móviles y APIs.
                 </p>
               </div>
             </div>
@@ -42,7 +42,7 @@ export default function ApplicationSecurity() {
 
           {/* How We Do It */}
           <section className="mb-5">
-            <h3 className="fw-bold mb-4">Cómo Protegemos tus Aplicaciones con IA</h3>
+            <h3 className="fw-bold mb-4">Cómo Protegemos tus Aplicaciones</h3>
             <div className="row g-4">
               <div className="col-md-6">
                 <div className="card h-100 border-0 shadow-sm">
@@ -52,9 +52,9 @@ export default function ApplicationSecurity() {
                         <i className="bi bi-file-code text-primary fs-2"></i>
                       </div>
                       <div>
-                        <h5 className="fw-bold mb-2">Análisis Estático Inteligente (SAST)</h5>
+                        <h5 className="fw-bold mb-2">Análisis Estático (SAST)</h5>
                         <p className="mb-0">
-                          IA revisa tu código fuente detectando vulnerabilidades, patrones inseguros y malas prácticas. Reduce falsos positivos mediante aprendizaje del contexto de tu aplicación.
+                          Revisamos tu código fuente detectando vulnerabilidades, patrones inseguros y malas prácticas. Utilizamos herramientas líderes del sector y experiencia profesional para reducir falsos positivos.
                         </p>
                       </div>
                     </div>
@@ -71,41 +71,7 @@ export default function ApplicationSecurity() {
                       <div>
                         <h5 className="fw-bold mb-2">Análisis Dinámico Automatizado (DAST)</h5>
                         <p className="mb-0">
-                          Testing de seguridad automatizado que simula ataques reales contra tus aplicaciones en ejecución. La IA adapta las pruebas según la tecnología y comportamiento de tu app.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="card h-100 border-0 shadow-sm">
-                  <div className="card-body p-4">
-                    <div className="d-flex align-items-start">
-                      <div className="me-3">
-                        <i className="bi bi-box-seam text-primary fs-2"></i>
-                      </div>
-                      <div>
-                        <h5 className="fw-bold mb-2">Análisis de Componentes (SCA)</h5>
-                        <p className="mb-0">
-                          Identificación automática de vulnerabilidades en dependencias y librerías de terceros. Priorización inteligente basada en explotabilidad real y contexto de uso.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="card h-100 border-0 shadow-sm">
-                  <div className="card-body p-4">
-                    <div className="d-flex align-items-start">
-                      <div className="me-3">
-                        <i className="bi bi-diagram-3 text-primary fs-2"></i>
-                      </div>
-                      <div>
-                        <h5 className="fw-bold mb-2">Protección de APIs</h5>
-                        <p className="mb-0">
-                          Monitorización continua de APIs con IA que aprende el comportamiento normal y detecta abusos, ataques de inyección, broken authentication y exposición de datos.
+                          Testing de seguridad automatizado que simula ataques reales contra tus aplicaciones en ejecución. Adaptamos las pruebas según la tecnología y comportamiento de tu app.
                         </p>
                       </div>
                     </div>
@@ -134,12 +100,12 @@ export default function ApplicationSecurity() {
                   <div className="card-body p-4">
                     <div className="d-flex align-items-start">
                       <div className="me-3">
-                        <i className="bi bi-patch-check text-primary fs-2"></i>
+                        <i className="bi bi-shield-lock text-primary fs-2"></i>
                       </div>
                       <div>
-                        <h5 className="fw-bold mb-2">Sugerencias de Remediación</h5>
+                        <h5 className="fw-bold mb-2">Modelado de Amenazas</h5>
                         <p className="mb-0">
-                          No solo identificamos problemas. La IA proporciona código de ejemplo específico y guías paso a paso para remediar cada vulnerabilidad encontrada.
+                          Identificamos y analizamos posibles amenazas y vectores de ataque desde la fase de diseño, ayudando a priorizar controles y reducir riesgos antes de escribir código.
                         </p>
                       </div>
                     </div>

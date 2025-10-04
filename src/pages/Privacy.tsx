@@ -97,7 +97,7 @@ export default function Privacy() {
                 <li><strong>Limitación:</strong> Solicitar la restricción del procesamiento de tus datos</li>
               </ul>
               <p>
-                Para ejercer estos derechos, contáctanos en: <a href="mailto:privacy@ariga.ai">privacy@ariga.ai</a>
+                Para ejercer estos derechos, contáctanos en: <a href="mailto:contact@jorgesilva.pro">contact@jorgesilva.pro</a>
               </p>
             </div>
           </div>
@@ -142,7 +142,7 @@ export default function Privacy() {
                 tus datos personales, contáctanos:
               </p>
               <ul className="list-unstyled">
-                <li><strong>Email:</strong> <a href="mailto:privacy@ariga.ai">privacy@ariga.ai</a></li>
+                <li><strong>Email:</strong> <a href="mailto:contact@jorgesilva.pro">contact@jorgesilva.pro</a></li>
                 <li><strong>Sitio web:</strong> <a href="https://cal.com/jorgesilva.pro/reunion-inicial" target="_blank" rel="noopener noreferrer">Agendar consulta</a></li>
               </ul>
             </div>

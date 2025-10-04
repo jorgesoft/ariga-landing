@@ -44,105 +44,42 @@ export default function SecuredAI() {
           <section className="mb-5">
             <h3 className="fw-bold mb-4">Cómo Implementamos IA Segura</h3>
             <div className="row g-4">
-              <div className="col-md-6">
+              <div className="col-md-4">
                 <div className="card h-100 border-0 shadow-sm">
-                  <div className="card-body p-4">
-                    <div className="d-flex align-items-start">
-                      <div className="me-3">
-                        <i className="bi bi-shield-lock text-primary fs-2"></i>
-                      </div>
-                      <div>
-                        <h5 className="fw-bold mb-2">Evaluación de Riesgos de IA</h5>
-                        <p className="mb-0">
-                          Analizamos tus casos de uso de IA para identificar riesgos de seguridad, privacidad y cumplimiento específicos. Evaluamos modelos, datos de entrenamiento, integraciones y puntos de acceso.
-                        </p>
-                      </div>
+                  <div className="card-body p-4 text-center">
+                    <div className="mb-3">
+                      <i className="bi bi-chat-dots text-primary fs-1"></i>
                     </div>
+                    <h5 className="fw-bold mb-3">Chatbots Empresariales Seguros</h5>
+                    <p className="mb-0">
+                      Implementamos chatbots de IA empresariales con protección de datos, control de acceso y cumplimiento normativo. Tus empleados pueden aprovechar la IA generativa sin comprometer información confidencial.
+                    </p>
                   </div>
                 </div>
               </div>
-              <div className="col-md-6">
+              <div className="col-md-4">
                 <div className="card h-100 border-0 shadow-sm">
-                  <div className="card-body p-4">
-                    <div className="d-flex align-items-start">
-                      <div className="me-3">
-                        <i className="bi bi-file-lock text-primary fs-2"></i>
-                      </div>
-                      <div>
-                        <h5 className="fw-bold mb-2">Protección de Datos Sensibles</h5>
-                        <p className="mb-0">
-                          Implementamos controles para prevenir que datos confidenciales sean expuestos a modelos de IA externos o utilizados inadecuadamente en entrenamientos.
-                        </p>
-                      </div>
+                  <div className="card-body p-4 text-center">
+                    <div className="mb-3">
+                      <i className="bi bi-clipboard-check text-primary fs-1"></i>
                     </div>
+                    <h5 className="fw-bold mb-3">Evaluación de Implementación de IA</h5>
+                    <p className="mb-0">
+                      Analizamos tus casos de uso de IA para identificar riesgos de seguridad, privacidad y cumplimiento. Evaluamos modelos, datos de entrenamiento, integraciones y establecemos controles adecuados.
+                    </p>
                   </div>
                 </div>
               </div>
-              <div className="col-md-6">
+              <div className="col-md-4">
                 <div className="card h-100 border-0 shadow-sm">
-                  <div className="card-body p-4">
-                    <div className="d-flex align-items-start">
-                      <div className="me-3">
-                        <i className="bi bi-cpu text-primary fs-2"></i>
-                      </div>
-                      <div>
-                        <h5 className="fw-bold mb-2">Seguridad de Modelos</h5>
-                        <p className="mb-0">
-                          Protegemos tus modelos de IA contra ataques de prompt injection, envenenamiento de datos, extracción de modelos y otras amenazas específicas de machine learning.
-                        </p>
-                      </div>
+                  <div className="card-body p-4 text-center">
+                    <div className="mb-3">
+                      <i className="bi bi-mortarboard text-primary fs-1"></i>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="card h-100 border-0 shadow-sm">
-                  <div className="card-body p-4">
-                    <div className="d-flex align-items-start">
-                      <div className="me-3">
-                        <i className="bi bi-eye text-primary fs-2"></i>
-                      </div>
-                      <div>
-                        <h5 className="fw-bold mb-2">Monitorización Continua</h5>
-                        <p className="mb-0">
-                          Implementamos sistemas de monitorización que detectan comportamientos anómalos en tus aplicaciones de IA, incluyendo intentos de manipulación, deriva de modelos y uso indebido.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="card h-100 border-0 shadow-sm">
-                  <div className="card-body p-4">
-                    <div className="d-flex align-items-start">
-                      <div className="me-3">
-                        <i className="bi bi-clipboard-data text-primary fs-2"></i>
-                      </div>
-                      <div>
-                        <h5 className="fw-bold mb-2">Gobernanza y Políticas</h5>
-                        <p className="mb-0">
-                          Ayudamos a establecer políticas claras de uso de IA, procesos de aprobación, y documentación que te preparan para regulaciones como el AI Act europeo.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="card h-100 border-0 shadow-sm">
-                  <div className="card-body p-4">
-                    <div className="d-flex align-items-start">
-                      <div className="me-3">
-                        <i className="bi bi-people text-primary fs-2"></i>
-                      </div>
-                      <div>
-                        <h5 className="fw-bold mb-2">Formación del Equipo</h5>
-                        <p className="mb-0">
-                          Capacitamos a tu equipo en prácticas seguras de desarrollo e implementación de IA, desde prompt engineering seguro hasta validación de outputs.
-                        </p>
-                      </div>
-                    </div>
+                    <h5 className="fw-bold mb-3">Formación en Seguridad de IA</h5>
+                    <p className="mb-0">
+                      Capacitamos a todos los usuarios en prácticas seguras de uso de IA, desde prompt engineering seguro hasta la protección de datos sensibles y el cumplimiento de políticas corporativas.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -167,7 +104,7 @@ export default function SecuredAI() {
                   <i className="bi bi-check-circle-fill text-success me-3 fs-5"></i>
                   <div>
                     <h6 className="fw-bold mb-1">Cumplimiento Normativo</h6>
-                    <p className="text-muted mb-0">Prepárate para el AI Act y otras regulaciones de IA con gobernanza y documentación adecuadas.</p>
+                    <p className="text-muted mb-0">Prepárate para regulaciones de IA con gobernanza y documentación adecuadas.</p>
                   </div>
                 </div>
               </div>

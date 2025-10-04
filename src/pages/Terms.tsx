@@ -188,7 +188,7 @@ export default function Terms() {
                 Si tienes preguntas sobre estos Términos y Condiciones, contáctanos:
               </p>
               <ul className="list-unstyled">
-                <li><strong>Email:</strong> <a href="mailto:legal@ariga.ai">legal@ariga.ai</a></li>
+                <li><strong>Email:</strong> <a href="mailto:contact@jorgesilva.pro">contact@jorgesilva.pro</a></li>
                 <li><strong>Sitio web:</strong> <a href="https://cal.com/jorgesilva.pro/reunion-inicial" target="_blank" rel="noopener noreferrer">Agendar consulta</a></li>
               </ul>
             </div>

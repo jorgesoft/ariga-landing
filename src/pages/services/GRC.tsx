@@ -42,162 +42,38 @@ export default function GRC() {
 
           {/* How We Do It */}
           <section className="mb-5">
-            <h3 className="fw-bold mb-4">Cómo Optimizamos tu GRC con IA</h3>
+            <h3 className="fw-bold mb-4">Cómo Optimizamos tu GRC</h3>
             <div className="row g-4">
-              <div className="col-md-6">
-                <div className="card h-100 border-0 shadow-sm">
-                  <div className="card-body p-4">
-                    <div className="d-flex align-items-start">
-                      <div className="me-3">
-                        <i className="bi bi-briefcase text-primary fs-2"></i>
-                      </div>
-                      <div>
-                        <h5 className="fw-bold mb-2">Gobierno de Seguridad Automatizado</h5>
-                        <p className="mb-0">
-                          La IA ayuda a definir, implementar y monitorizar políticas de seguridad. Identifica desviaciones automáticamente y sugiere actualizaciones basadas en cambios en el negocio.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="card h-100 border-0 shadow-sm">
-                  <div className="card-body p-4">
-                    <div className="d-flex align-items-start">
-                      <div className="me-3">
-                        <i className="bi bi-exclamation-triangle text-primary fs-2"></i>
-                      </div>
-                      <div>
-                        <h5 className="fw-bold mb-2">Gestión Inteligente de Riesgos</h5>
-                        <p className="mb-0">
-                          Evaluación continua de riesgos con IA que correlaciona amenazas, vulnerabilidades, activos y controles para calcular el riesgo real y priorizar acciones.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="card h-100 border-0 shadow-sm">
-                  <div className="card-body p-4">
-                    <div className="d-flex align-items-start">
-                      <div className="me-3">
-                        <i className="bi bi-file-earmark-check text-primary fs-2"></i>
-                      </div>
-                      <div>
-                        <h5 className="fw-bold mb-2">Cumplimiento Continuo</h5>
-                        <p className="mb-0">
-                          Monitorización automática del estado de cumplimiento con múltiples frameworks. Mapeo inteligente de controles y generación de evidencias para auditorías.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="card h-100 border-0 shadow-sm">
-                  <div className="card-body p-4">
-                    <div className="d-flex align-items-start">
-                      <div className="me-3">
-                        <i className="bi bi-graph-up text-primary fs-2"></i>
-                      </div>
-                      <div>
-                        <h5 className="fw-bold mb-2">Análisis Predictivo de Riesgos</h5>
-                        <p className="mb-0">
-                          Machine learning predice qué áreas presentarán problemas de cumplimiento o incrementos de riesgo, permitiendo acción proactiva antes de incidentes.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="card h-100 border-0 shadow-sm">
-                  <div className="card-body p-4">
-                    <div className="d-flex align-items-start">
-                      <div className="me-3">
-                        <i className="bi bi-file-text text-primary fs-2"></i>
-                      </div>
-                      <div>
-                        <h5 className="fw-bold mb-2">Documentación Automática</h5>
-                        <p className="mb-0">
-                          Generación automatizada de políticas, procedimientos, registros de tratamiento GDPR y documentación de auditoría mediante procesamiento de lenguaje natural.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="card h-100 border-0 shadow-sm">
-                  <div className="card-body p-4">
-                    <div className="d-flex align-items-start">
-                      <div className="me-3">
-                        <i className="bi bi-people text-primary fs-2"></i>
-                      </div>
-                      <div>
-                        <h5 className="fw-bold mb-2">Gestión de Terceros</h5>
-                        <p className="mb-0">
-                          Evaluación automatizada de riesgos de proveedores. La IA analiza cuestionarios, certificaciones y noticias para calificar y monitorizar riesgos de terceros.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
-          {/* Frameworks */}
-          <section className="mb-5">
-            <h3 className="fw-bold mb-4">Frameworks y Normativas Soportados</h3>
-            <div className="row g-3">
               <div className="col-md-4">
-                <div className="card border-0 bg-light h-100">
-                  <div className="card-body text-center">
-                    <i className="bi bi-check-circle text-primary fs-3 mb-2"></i>
-                    <h6 className="fw-bold">ISO 27001</h6>
+                <div className="card h-100 border-0 shadow-sm">
+                  <div className="card-body p-4 text-center">
+                    <i className="bi bi-briefcase text-primary fs-2 mb-3"></i>
+                    <h5 className="fw-bold mb-2">Consultoría GRC</h5>
+                    <p className="mb-0">Asesoría experta en gobierno, gestión de riesgos y cumplimiento normativo para tu organización.</p>
                   </div>
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="card border-0 bg-light h-100">
-                  <div className="card-body text-center">
-                    <i className="bi bi-check-circle text-primary fs-3 mb-2"></i>
-                    <h6 className="fw-bold">GDPR</h6>
+                <div className="card h-100 border-0 shadow-sm position-relative">
+                  <div className="card-body p-4 text-center">
+                    <div className="position-absolute top-0 end-0 mt-3 me-3">
+                      <span className="badge bg-info">Próximamente</span>
+                    </div>
+                    <i className="bi bi-layers text-primary fs-2 mb-3"></i>
+                    <h5 className="fw-bold mb-2">Plataforma GRC</h5>
+                    <p className="mb-0">Gestión centralizada y automatizada de políticas, riesgos y cumplimiento desde una sola plataforma.</p>
                   </div>
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="card border-0 bg-light h-100">
-                  <div className="card-body text-center">
-                    <i className="bi bi-check-circle text-primary fs-3 mb-2"></i>
-                    <h6 className="fw-bold">ENS (Esquema Nacional de Seguridad)</h6>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="card border-0 bg-light h-100">
-                  <div className="card-body text-center">
-                    <i className="bi bi-check-circle text-primary fs-3 mb-2"></i>
-                    <h6 className="fw-bold">PCI-DSS</h6>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="card border-0 bg-light h-100">
-                  <div className="card-body text-center">
-                    <i className="bi bi-check-circle text-primary fs-3 mb-2"></i>
-                    <h6 className="fw-bold">SOC 2</h6>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-4">
-                <div className="card border-0 bg-light h-100">
-                  <div className="card-body text-center">
-                    <i className="bi bi-check-circle text-primary fs-3 mb-2"></i>
-                    <h6 className="fw-bold">NIST CSF</h6>
+                <div className="card h-100 border-0 shadow-sm position-relative">
+                  <div className="card-body p-4 text-center">
+                    <div className="position-absolute top-0 end-0 mt-3 me-3">
+                      <span className="badge bg-info">Próximamente</span>
+                    </div>
+                    <i className="bi bi-shield-check text-primary fs-2 mb-3"></i>
+                    <h5 className="fw-bold mb-2">Ley de Protección de Datos Personales de El Salvador</h5>
+                    <p className="mb-0">Prepara tu empresa para cumplir con la nueva ley salvadoreña de protección de datos personales.</p>
                   </div>
                 </div>
               </div>

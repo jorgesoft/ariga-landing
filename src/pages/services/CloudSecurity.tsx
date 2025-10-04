@@ -24,7 +24,7 @@ export default function CloudSecurity() {
               <h1 className="display-4 fw-bold mb-0">Seguridad en la Nube</h1>
             </div>
             <p className="lead text-muted">
-              Protege tu infraestructura cloud con monitorización y automatización inteligente
+              Protege tu infraestructura cloud con herramientas avanzadas
             </p>
           </div>
 
@@ -34,7 +34,7 @@ export default function CloudSecurity() {
               <div className="card-body p-4">
                 <h3 className="fw-bold mb-3">¿Qué es?</h3>
                 <p>
-                  La migración a la nube trae enormes beneficios, pero también introduce nuevos desafíos de seguridad: configuraciones incorrectas, accesos no autorizados, falta de visibilidad y cumplimiento normativo. Nuestro servicio de Seguridad en la Nube utiliza IA para proporcionar protección continua, automatizada e inteligente de tus entornos AWS, Azure, Google Cloud y multi-cloud.
+                  La nube trae enormes beneficios, pero también introduce nuevos desafíos de seguridad: configuraciones incorrectas, accesos no autorizados, falta de visibilidad y cumplimiento normativo. Nuestro servicio de Seguridad en la Nube utiliza herramientas avanzadas para proporcionar protección continua, automatizada e inteligente de tus entornos AWS, Azure, Google Cloud y multi-cloud.
                 </p>
               </div>
             </div>
@@ -49,12 +49,12 @@ export default function CloudSecurity() {
                   <div className="card-body p-4">
                     <div className="d-flex align-items-start">
                       <div className="me-3">
-                        <i className="bi bi-check2-square text-primary fs-2"></i>
+                        <i className="bi bi-clouds text-primary fs-2"></i>
                       </div>
                       <div>
-                        <h5 className="fw-bold mb-2">Análisis de Configuración Continuo</h5>
+                        <h5 className="fw-bold mb-2">Soporte Multi-Cloud</h5>
                         <p className="mb-0">
-                          La IA escanea constantemente tus entornos cloud para detectar configuraciones inseguras, buckets S3 públicos, reglas de firewall permisivas y desviaciones de best practices.
+                          Protege y monitorea entornos AWS, Azure, Google Cloud y arquitecturas híbridas desde una sola plataforma centralizada.
                         </p>
                       </div>
                     </div>
@@ -66,12 +66,12 @@ export default function CloudSecurity() {
                   <div className="card-body p-4">
                     <div className="d-flex align-items-start">
                       <div className="me-3">
-                        <i className="bi bi-key text-primary fs-2"></i>
+                        <i className="bi bi-diagram-3 text-primary fs-2"></i>
                       </div>
                       <div>
-                        <h5 className="fw-bold mb-2">Gestión Inteligente de Identidades</h5>
+                        <h5 className="fw-bold mb-2">Mapeo de Frameworks de Cumplimiento</h5>
                         <p className="mb-0">
-                          Analizamos y optimizamos permisos IAM, detectamos privilegios excesivos, cuentas inactivas y patrones de acceso anómalos en tiempo real.
+                          Mapeo automático contra CIS Benchmarks, NIST 800-53, ISO 27001, PCI-DSS, GDPR, SOC 2 y otros estándares. Visualiza tu estado de cumplimiento en tiempo real.
                         </p>
                       </div>
                     </div>
@@ -83,12 +83,12 @@ export default function CloudSecurity() {
                   <div className="card-body p-4">
                     <div className="d-flex align-items-start">
                       <div className="me-3">
-                        <i className="bi bi-activity text-primary fs-2"></i>
+                        <i className="bi bi-robot text-primary fs-2"></i>
                       </div>
                       <div>
-                        <h5 className="fw-bold mb-2">Detección de Amenazas en Tiempo Real</h5>
+                        <h5 className="fw-bold mb-2">Cientos de Chequeos Automatizados</h5>
                         <p className="mb-0">
-                          Machine learning analiza logs, eventos y comportamientos de red para identificar actividades maliciosas, compromiso de credenciales y movimientos laterales.
+                          Realiza cientos de pruebas automáticas sobre configuraciones, accesos, cifrado, redes y más, detectando riesgos y desviaciones en minutos.
                         </p>
                       </div>
                     </div>
@@ -100,46 +100,12 @@ export default function CloudSecurity() {
                   <div className="card-body p-4">
                     <div className="d-flex align-items-start">
                       <div className="me-3">
-                        <i className="bi bi-shield-fill-check text-primary fs-2"></i>
+                        <i className="bi bi-bar-chart-line text-primary fs-2"></i>
                       </div>
                       <div>
-                        <h5 className="fw-bold mb-2">Cumplimiento Automatizado</h5>
+                        <h5 className="fw-bold mb-2">Reportes Detallados</h5>
                         <p className="mb-0">
-                          Validación continua contra frameworks como CIS, PCI-DSS, GDPR e ISO 27001. La IA identifica brechas de cumplimiento y sugiere remediaciones específicas.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="card h-100 border-0 shadow-sm">
-                  <div className="card-body p-4">
-                    <div className="d-flex align-items-start">
-                      <div className="me-3">
-                        <i className="bi bi-tools text-primary fs-2"></i>
-                      </div>
-                      <div>
-                        <h5 className="fw-bold mb-2">Remediación Automática</h5>
-                        <p className="mb-0">
-                          Configuramos respuestas automáticas a problemas de seguridad: cierre de puertos expuestos, revocación de credenciales comprometidas, aislamiento de recursos infectados.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6">
-                <div className="card h-100 border-0 shadow-sm">
-                  <div className="card-body p-4">
-                    <div className="d-flex align-items-start">
-                      <div className="me-3">
-                        <i className="bi bi-piggy-bank text-primary fs-2"></i>
-                      </div>
-                      <div>
-                        <h5 className="fw-bold mb-2">Optimización de Costos de Seguridad</h5>
-                        <p className="mb-0">
-                          La IA identifica recursos de seguridad infrautilizados o redundantes, optimizando tu gasto mientras mantiene o mejora tu postura de seguridad.
+                          Accede a reportes visuales y exportables con hallazgos, tendencias, métricas de cumplimiento y recomendaciones priorizadas.
                         </p>
                       </div>
                     </div>
@@ -177,15 +143,6 @@ export default function CloudSecurity() {
                   <div>
                     <h6 className="fw-bold mb-1">Reducción de Superficie de Ataque</h6>
                     <p className="text-muted mb-0">Identifica y elimina exposiciones innecesarias en tu infraestructura cloud.</p>
-                  </div>
-                </div>
-              </div>
-              <div className="list-group-item border-0 ps-0">
-                <div className="d-flex">
-                  <i className="bi bi-check-circle-fill text-success me-3 fs-5"></i>
-                  <div>
-                    <h6 className="fw-bold mb-1">Escalabilidad sin Complejidad</h6>
-                    <p className="text-muted mb-0">La automatización con IA permite escalar tu seguridad sin necesidad de aumentar proporcionalmente tu equipo.</p>
                   </div>
                 </div>
               </div>

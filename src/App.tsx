@@ -1,34 +1,39 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import ScrollToTop from './components/ScrollToTop'
+import Home from './pages/Home'
+import ExternalSecurityEvaluation from './pages/services/ExternalSecurityEvaluation'
+import SecuredAI from './pages/services/SecuredAI'
+import SecurityAwareness from './pages/services/SecurityAwareness'
+import CloudSecurity from './pages/services/CloudSecurity'
+import ApplicationSecurity from './pages/services/ApplicationSecurity'
+import GRC from './pages/services/GRC'
+import Privacy from './pages/Privacy'
+import Terms from './pages/Terms'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <Router>
+      <ScrollToTop />
+      <div className="d-flex flex-column min-vh-100">
+        <Navbar />
+        <main className="flex-grow-1">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/servicios/evaluacion-seguridad-externa" element={<ExternalSecurityEvaluation />} />
+            <Route path="/servicios/ia-segura" element={<SecuredAI />} />
+            <Route path="/servicios/concienciacion-seguridad" element={<SecurityAwareness />} />
+            <Route path="/servicios/seguridad-nube" element={<CloudSecurity />} />
+            <Route path="/servicios/seguridad-aplicaciones" element={<ApplicationSecurity />} />
+            <Route path="/servicios/grc" element={<GRC />} />
+            <Route path="/privacidad" element={<Privacy />} />
+            <Route path="/terminos" element={<Terms />} />
+          </Routes>
+        </main>
+        <Footer />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </Router>
   )
 }
 

@@ -1,51 +1,26 @@
 export default function WhyUsSection() {
-  const features = [
-    {
-      title: 'Experiencia Especializada',
-      description: 'Con años de experiencia en ciberseguridad y desarrollo de soluciones de IA, combinamos el conocimiento técnico profundo con una comprensión práctica de los desafíos empresariales.'
-    },
-    {
-      title: 'IA Aplicada a la Seguridad',
-      description: 'No solo implementamos tecnología de IA genérica. Desarrollamos y adaptamos modelos específicos que entienden el contexto de seguridad de tu empresa, automatizando procesos y detectando amenazas de forma proactiva.'
-    },
-    {
-      title: 'Enfoque Personalizado',
-      description: 'Cada empresa es única. Analizamos tu infraestructura, procesos y necesidades específicas para diseñar soluciones que se integren perfectamente con tu operativa actual.'
-    },
-    {
-      title: 'Resultados Medibles',
-      description: 'Utilizamos IA para proporcionar métricas claras y dashboards inteligentes que te permiten visualizar el estado de tu seguridad y el retorno de inversión de nuestras soluciones.'
-    }
-  ]
-
   return (
     <section className="bg-light py-5">
       <div className="container py-5">
         <div className="row align-items-center">
-          <div className="col-lg-10 mx-auto">
+          <div className="col-lg-8 mx-auto">
             <div className="text-center mb-5">
               <h2 className="display-5 fw-bold mb-3">¿Por Qué Ariga.ai?</h2>
             </div>
-            <div className="row g-4">
-              {features.map((feature, index) => (
-                <div key={index} className="col-md-6">
-                  <div className="card border-0 bg-transparent">
-                    <div className="card-body">
-                      <div className="d-flex align-items-start">
-                        <div className="me-3">
-                          <i className="bi bi-check-circle-fill text-success fs-3"></i>
-                        </div>
-                        <div>
-                          <h5 className="fw-bold mb-2">{feature.title}</h5>
-                          <p className="text-muted">
-                            {feature.description}
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              ))}
+              <h4 className="fw-bold mb-2 fs-2">Fundador: Jorge Silva, CISSP</h4>
+              <p className="mb-2 fs-5">
+                Soy Jorge Silva, especialista en ciberseguridad y computación en la nube con más de 7 años de experiencia ayudando a organizaciones a proteger su infraestructura digital.
+              </p>
+              <ul className="list-unstyled mb-2 fs-5">
+                <li><i className="bi bi-mortarboard text-primary me-2"></i>Graduado en Cloud Computing (WGU) y Cybersecurity (NYU)</li>
+                <li><i className="bi bi-patch-check text-success me-2"></i>Más de 15 certificaciones en seguridad, nube y tecnología</li>
+                <li><i className="bi bi-lightbulb text-warning me-2"></i>Experiencia con startups, PYMEs y entornos de misión crítica</li>
+              </ul>
+            <a href="https://www.linkedin.com/in/jorgeecsilva/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-primary mt-2">
+              <i className="bi bi-linkedin me-2"></i>Ver perfil en LinkedIn
+            </a>
+            <div className="text-center text-muted mt-4">
+              En Ariga.ai, combinamos experiencia real, formación de alto nivel y pasión por la seguridad para ayudarte a proteger lo que más importa.
             </div>
           </div>
         </div>
